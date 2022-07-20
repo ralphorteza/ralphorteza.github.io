@@ -1,89 +1,89 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Landing page
-        </title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- top container to hold header and hero-->
-        <div class="top">
-            <!-- header container-->
-            <div class="header">
-                <div class="header-logo">Header Logo</div>
-                <ul class="header-links">
-                    <li><a href="google.com">link1</a></li>
-                    <li><a href="google.com">link2</a></li>
-                    <li><a href="google.com">link3</a></li>
-                </ul>
-            </div>
-            <!-- hero container  -->
-            <div class="hero">
-                <div class="hero-left">
-                    <div class="hero-main">This is awesome</div>
-                    <div class="hero-secondary">
-                        This website has some subtext goes here under the main title. It's smaller font and the color is lower.
-                    </div>
-                    <button class="sign-up">Sign up</button>
-                </div>
-                <div class="hero-right">
-                    <div class="hero-image">
-                        This is a placeholder for an image
-                    </div>
-                </div>
-            </div>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="calculator-body">
+      <div class="display"></div>
+      <div class="row one">
+        <div class="button clear">
+           <button class="btn char clear">AC</button>
         </div>
-
-        <!-- content container -->
-        <div class="content">
-            <div class="content-title">Some random information.</div>
-            <div class="content-info">
-                <div class="info">
-                    <div class="card"></div>
-                    <div class="text">this is some subtext under an illustration or image</div>
-                </div>
-                <div class="info">
-                    <div class="card"></div>
-                    <div class="text">this is some subtext under an illustration or image</div>
-                </div>
-                <div class="info">
-                    <div class="card"></div>
-                    <div class="text">this is some subtext under an illustration or image</div>
-                </div>
-                <div class="info">
-                    <div class="card"></div>
-                    <div class="text">this is some subtext under an illustration or image</div>
-                </div>
-            </div>
+       <div class="button operator null"></div>
+        <div class="button operator modulus">
+           <button class="btn char %">%</button>
         </div>
-
-        
-        <!-- quote container -->
-        <div class="quote">
-            <div class="quote-content">
-                <div class="quote-text">
-                    This is an inspiring quote, or a testimonial from a customer. Maybe It's just to fill up space, or maybe people actually read it. Who knows? All I know is that is looks nice.
-                </div>
-                <div class="quote-author">-Thor, God of Thunder</div>
-            </div>
+        <div class="button operator divide">
+           <button class="btn char /">/</button>
         </div>
-
-
-        <!-- action containter -->
-        <div class="action">
-            <div class="text-group">
-                <div class="primary-text">Call to action! It's time!</div>
-                <div class="secondary-text">Sign up for our product by clicking that button over there!</div>
-            </div>
-            <button class="sign-up">Sign Up</button>
+      </div>
+      <div class="row two">
+        <div class="button number 7">
+           <button class="btn num 7">7</button>
         </div>
+        <div class="button number 8">
+           <button class="btn num 8">8</button>
+        </div>
+        <div class="button number 9">
+           <button class="btn num 9">9</button>
+        </div>
+        <div class="button operator multiply">
+           <button class="btn char *">*</button>
+        </div>
+      </div>
+      <div class="row three">
+        <div class="button number 4">
+           <button class="btn num 4">4</button>
+        </div>
+        <div class="button number 5">
+           <button class="btn num 5">5</button>
+        </div>
+        <div class="button number 6">
+           <button class="btn num 6">6</button>
+        </div>
+        <div class="button operator plus">
+           <button class="btn char +">+</button>
+        </div>
+      </div>
+      <div class="row four">
+        <div class="button number 1">
+           <button class="btn num 1">1</button>
+        </div>
+        <div class="button number 2">
+           <button class="btn num 2">2</button>
+        </div>
+        <div class="button number 3">
+           <button class="btn num 3">3</button>
+        </div>
+        <div class="button operator minus">
+           <button class="btn char -">-</button>
+        </div>
+      </div>
+      <div class="row five">
+        <div class="button number 0">
+           <button class="btn num 0">0</button>
+        </div>
+        <div class="button dot">
+           <button class="btn char dot">.</button>
+        </div>
+        <div class="button backspace">
+           <button class="btn char backspace">DEL</button>
+        </div>
+        <div class="button calculate">
+           <button class="btn char equal">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        
-        <!-- footer containter -->
-        <div class="footer">Copyright © The Odin Project 2022 </div>
-
-    </body>
+  </div>
+</body>
 </html>
